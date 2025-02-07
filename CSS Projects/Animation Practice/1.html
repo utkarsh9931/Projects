@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 1000px;
+            width: 1000px;
+            background-color: aqua;
+            margin: auto;
+            position: relative;
+            transition: 1s;
+        }
+
+        @keyframes moving1{
+            0% ,100%{
+                transform: scaleY(2);
+            }
+            
+            50%{
+                transform: scaleY(1);
+            }
+            
+        }
+
+        @keyframes moving2{
+            0% ,100%{
+                transform: scaleY(2);
+            }
+            
+            50%{
+                transform: scaleY(1);
+            }
+            
+        }
+
+        @keyframes moving3{
+            0% ,100%{
+                transform: scaleY(2);
+            }
+            
+            50%{
+                transform: scaleY(1);
+            }
+            
+        }
+
+        @keyframes moving4{
+            0% ,100%{
+                transform: scaleY(2);
+            }
+            
+            50%{
+                transform: scaleY(1);
+            }
+            
+        }
+
+        .strip{
+            width: 5px;
+            height: 50px;
+            background-color: black;
+            position: absolute;
+        }
+
+        .one{
+            background-color: red;
+            top: 400px;
+            left: 400px;
+            animation: moving1 2s infinite linear;
+        }
+
+        .two{
+            background-color: yellow;
+            top: 400px;
+            left: 450px;
+            animation: moving2 2s 1s infinite linear;
+        }
+
+        .three{
+            background-color: green;
+            top: 400px;
+            left: 500px;
+            animation: moving3 2s 2s infinite linear;
+        }
+
+        .four{
+            background-color:blue;
+            top: 400px;
+            left: 550px;
+            animation: moving4 2s 3s infinite linear;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="strip one"></div>
+        <div class="strip two"></div>
+        <div class="strip three"></div>
+        <div class="strip four"></div>
+    </div>
+</body>
+</html>

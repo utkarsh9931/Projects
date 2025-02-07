@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}   
+
+.main{
+    /* height: 2000px; */
+    width: 1500px;
+    background-color:#f9f9f9;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.box{
+    width: 450px;
+    /* height: 650px; */
+    border: 1px solid black;
+    padding-bottom: 20px;
+    
+}
+
+.main .box .carname {
+    /* height: 8% ; */
+    width: 100%;
+    padding-top: 9%;
+   font-size: 20px ;
+   text-align: center;
+   background-color: #f9f9f9;
+}
+
+.fourbox{
+    /* height: 29%; */
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+    gap: 10px;
+}
+
+.boxes{
+    /* height: 80px; */
+    width: 150px; ;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 0px;
+}

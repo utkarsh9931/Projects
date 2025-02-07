@@ -1,0 +1,547 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", serif;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 1520px;
+    height: 2000px;
+    background-color:#FEFEFE;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.headerLogo{
+    margin: 25px 0px;
+    padding-right: 75px;
+    border-right: 1px solid black;
+}
+
+.inHeader{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.headerTwo{
+    display: flex;
+    gap: 20px;
+    margin-left: 30px;
+    width: max-content;
+    height: max-content;
+    margin-top: 15px;
+}
+
+.box{
+    width: 105px;
+    height: 70px;
+    border-radius: 10%;
+}
+
+.one{
+    background-color: #D84E55;
+}
+
+.inImage{
+    margin: 8px 2px;
+    text-align: center;
+    color: white;
+}
+
+.inText{
+    text-align: center;
+    font-size: 13px;
+}
+
+.off{
+    width: max-content;
+    background-color: #60B681;
+    color: white;
+    font-size: 11px;
+    border-radius: 5px;
+    padding: 2px 3px;
+    position: absolute;
+    top: 0px;
+    right: -6px;
+}
+
+.two{
+    background-color: white;
+    position: relative;
+}
+
+.headerRight{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 430px;
+}
+
+.headerMenu{
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.fa-solid{
+    font-size: 20px;
+}
+
+.fa-regular{
+    font-size: 17px;
+}
+
+/* Header Menu Bar Ends */
+
+.banner{
+    position: relative;
+}
+
+.banner h1{
+    position:absolute;
+    top: 45px;
+    left: 400px;
+    color: white;
+    /* margin: auto; */
+}
+
+.bannerButton{
+    width: 1100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    margin: auto;
+    border-radius: 30px;
+    position: absolute;
+    left: 200px;
+    top: 170px;
+}
+
+.banner img{
+    background-size: cover;
+}
+
+.buttons{
+    display: flex;
+    height: 100%;
+    gap: 20px;
+    border-right: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.b1{
+    padding-right: 200px;
+}
+
+.b2{
+    padding-right: 230px;
+}
+
+.b3{
+    padding-right: 200px;
+}
+
+.b4{
+    border-right: none;
+    text-align: center;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #D84E55;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.buttonImg{
+    padding-left: 20px;
+}
+
+.offers{
+    width: 1200px;
+    border-radius: 25px;
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    top: 570px;
+    left: 160px;
+}
+
+.offerLine{
+    height: max-content;
+    margin: 38px 30px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view{
+    font-size: 17px;
+    color: blue;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: max-content;
+    padding: 10px;
+}
+
+.offerTags{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 30px 30px;
+    display: flex;
+    gap: 25px;
+    border-radius: 20px;
+}
+
+.offerBox{
+    width: 310px;
+    background-image: linear-gradient(71.04deg, rgb(12, 57, 139) -6.92%, rgb(62, 118, 216) 109.43%);
+    border: 1px solid black;
+    display: flex;
+    border-radius: 20px;
+    color: white;
+}
+
+.offerImg{
+    margin: 30px 0px 40px 10px;  
+    border-radius: 50%;  
+}
+
+.offer{
+    margin-bottom: 10px;
+}
+
+.L1{
+    font-size: 13px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    padding: 0px 5px;
+    border-radius: 20px;
+}
+
+.L3{
+    font-size: 12px;
+}
+
+.offerBoxRight h3{
+    width: 200px;
+    font-size: 17px;
+}
+
+.LastLine{
+    display: flex;
+    gap: 10px;
+}
+
+.LL1{
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px;
+    border-style: dashed;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 7px;
+}
+
+.offerBoxRight{
+    margin: 20px 10px 10px 20px;
+}
+
+.Box2{
+    background-image: linear-gradient(71.04deg, rgb(39, 57, 101) -6.92%, rgb(80, 210, 149) 109.43%);
+}
+
+.Box3{
+    background-image: linear-gradient(71.04deg, rgb(72, 0, 4) -6.92%, rgb(216, 78, 85) 109.43%);
+}
+
+/* offers ended */
+
+.Two{
+    top: 950px;
+    left: 160px;
+    border-radius: 0px;
+}
+
+.L22{
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+.busBox{
+    width: 1200px;
+    background-image: white;
+    display: flex;
+    gap: 25px;
+    overflow: hidden;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-left: 20px;
+    /* box-shadow: black 5px; */
+}
+
+.bb1{
+    width:450px;
+}
+
+.bbb1{
+    border-radius: 5px;
+}
+
+
+.bb1In{
+    display: flex;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.L1R{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.bx2Right{
+    margin: 10px;
+}
+
+.Ratings{
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    background-color: green;
+    gap: 1px;
+    font-size: 15px;
+}
+
+.bx1L2{
+    width: 300px;
+    color: black;
+    margin: auto;
+    padding: 15px;
+}
+
+.bx1L3{
+    width: 400px;
+    margin: 0px 25px 15px 25px;
+    border-radius: 5px;
+    background-color: #F2F2F8;
+}
+
+.bxL3{
+    width: max-content;
+    display: flex;
+    gap: 5px;
+    margin: 0px 70px;
+    text-align: center;
+}
+
+.bx1L4{
+    width: 100%;
+    background-color: #FAE9EA;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* govt buses ends */
+
+/* train banner starts */
+
+.trainBanner{
+    width: max-content;
+    box-sizing: border-box;
+    position: relative;
+    top: 700px;
+    left: 180px;
+}
+
+.TLbox1{
+    padding:10px 0px;
+}
+
+.TLbox2IN{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.TLbox3IN{
+    padding: 10px 0px;
+    width: 550px;
+}
+
+.TL4two{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.llt{
+    margin-top: 20px 0px;
+}
+
+.TLbox5IN{
+    width: max-content;
+    display: flex;
+    gap: 10px;
+    background-color: #D84E55 ;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.playstore{
+    width: max-content;
+    box-sizing: border-box;
+    position: relative;
+    top: 700px;
+    left: 180px;
+    margin-top: 180px;
+    position: relative;
+}
+
+.Lwhitebox{
+    width: 370px;
+    height: max-content;
+    position: absolute;
+    background-color: white;
+    top: 100px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.wbL1{
+    display: flex;
+    width:max-content;
+    margin: 50px 0px 15px 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.wbLL2{
+    margin: 0px 20px 15px 30px;
+}
+
+.wbdown{
+    display: flex;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.wbdownL{
+    margin: 30px;
+}
+
+.wbRatings{
+    display: flex;
+    position: relative;
+}
+
+.wbdown2{
+    width: 100px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 480px;
+    top: 120px;
+}
+
+.wbdown3{
+    width: 150px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 660px;
+    top: 120px;
+}
+
+.PrimoAd{
+    position: absolute;
+    top: 2600px;
+    left: 180px;
+}
+
+.primobanner{
+    height: 552px;
+    width: 800px;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.bluebox{
+    background-color: #233058;
+    width: 400px ;
+    height: 550px;
+    position: absolute;
+    left: 800px;
+    top: 0px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.blueboxIn{
+    position: absolute;
+    top: 100px;
+}
+
+.bluein{
+    display: flex;
+    gap: 20px;
+    margin: 0px 50px;
+    width: 280px;
+    margin-bottom: 60px;
+}
+
+.globalP{
+    position:absolute;
+    top:3400px ;
+    left: 180px;
+}
+
+.flags{
+    display: flex;
+    gap: 80px;
+}
+
+.flagImg{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.Cname{
+    padding: 10px; 
+    display: inline-block;
+    border-radius: 30px 30px ;
+    font-weight: 650;
+}
+
+.Cname:hover {
+    background-color: #F0F0F0;
+}
+
+.onlineTic{
+    position:absolute;
+    top:3750px ;
+    left: 180px;
+    width: 1190px;
+}
