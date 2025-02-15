@@ -545,3 +545,29 @@
     left: 180px;
     width: 1190px;
 }
+
+.ot2{
+    position:absolute;
+    top:4300px ;
+    left: 180px;
+    width: 1190px;
+    
+}
+
+.booknow{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.INbooknow{
+    display: flex;
+}
+
+.underBook{
+    display: flex;
+}
+
+.bookButton{
+    background-color: red;
+    
+}

@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    background-color: #000000;
+    font-family: "Open Sans", serif;
+}
+
+.main{
+    background-color: #000000;
+}
+
+.LeftHeader{
+    margin: 8px 28px;
+    display: flex;
+    align-items: center;
+}
+
+.searchBar{
+    padding: 10px;
+    display: flex;
+    background-color:#1F1F1F;
+    margin-left: 7px;
+    border-radius: 40px;
+}
+
+.inSearchBar{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.Header{
+    display: flex;
+}
+
+.inSearchBar input{
+    width: 380px;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 540;
+}
+
+.inSearchBar input:focus{
+    outline: none;
+}
+
+.RightHeader{
+    margin-left: 310px;
+    display: flex;
+    color: white;
+    gap: 10px;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.install{
+    margin-left: 20px;
+    display: flex;
+    gap: 5px;
+    margin-right: 20px
+}
+
+.login{
+    background-color: white;
+    padding: 15px 35px;
+    color: black;
+    border-radius: 30px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+/* Header Ends */
+
+.content{
+    background-color: white;
+}
+
+.Library{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.InLib{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+.LcontentBox{
+    /* background-color: #121212; */
+}
